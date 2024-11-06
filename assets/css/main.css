@@ -3921,3 +3921,75 @@ input, select, textarea {
 			display: block;          /* Removes any inline-block spacing */
 			border-radius: 50%;
 		}
+
+/* Main Wrapper Styling */
+#pipedreams.wrapper.style2.spotlights {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 5em 5em 3em 5em;
+    background-color: #5052b5;
+    max-width: 75em;
+    width: 100%;
+}
+
+/* Image Styling to Match Spotlights */
+#pipedreams .spotlights > section > .image {
+    background-position: center center;
+    background-size: cover;
+    display: block;
+    position: relative;
+    width: 25em;
+    min-height: 22.5em;
+}
+
+#pipedreams .spotlights > section > .image img {
+    display: none;
+}
+
+/* Content Styling within Spotlights */
+#pipedreams .spotlights > section > .content {
+    padding: 4em 5em 2em 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50em;
+}
+
+#pipedreams .content .inner {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+/* Headings */
+#pipedreams h1 {
+    font-size: 2.75em;
+    color: #ffffff;
+    margin-bottom: 0.5em;
+}
+
+#pipedreams h2 {
+    font-size: 1.75em;
+    color: #ffffff;
+    margin-top: 0.5em;
+}
+
+/* Button Styling */
+#pipedreams .actions .button {
+    background-color: #007acc;
+    color: #ffffff !important;
+    padding: 0.75em 2em;
+    border-radius: 3em;
+    font-size: 0.6em;
+    font-weight: bold;
+    transition: border-color 0.2s ease;
+    border: solid 1px rgba(255, 255, 255, 0.15);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#pipedreams .actions .button:hover {
+    border-color: rgba(255, 255, 255, 0.55);
+}
