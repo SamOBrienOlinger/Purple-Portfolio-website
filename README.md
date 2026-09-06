@@ -14,7 +14,7 @@ A personal portfolio design built from the HTML5 UP Hyperspace template.
 
 ## Getting started
 
-Requires a browser and a local HTTP server. Python 3 provides one without installing application packages.
+Requires Git, a browser and a local HTTP server. Python 3 provides one without installing application packages.
 
 ```bash
 git clone https://github.com/SamOBrienOlinger/Purple-Portfolio-website.git
